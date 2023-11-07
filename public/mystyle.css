@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(213, 245, 235);
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.harga_final {
+    font-weight: bold;
+    color: brown;
+}
+
+a:link {
+    text-decoration: none;
+    color: aqua;
+}
+
+a:visited {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+    font-weight: 550;
+}
+
+.profilepicture {
+    border-radius: 50%;
+}
+
+.photoframe {
+    border-radius: 25px; /* Membuat rounder corner */
+    border: 5px solid #a3a4a2; /*Tebal jenis warna */
+    padding: 5px; /* Jarak isi dengan jarak border */
+    width: 450px; /* Jika tidak diset maka lebarnya akan full 1 halaman */
+}

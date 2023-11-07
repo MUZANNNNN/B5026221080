@@ -1,0 +1,95 @@
+body {
+    background-color: #ffffff;
+    color: black;
+    font-family: sans-serif;
+}
+
+.fauzanThreeDots {
+    text-align: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 20%;
+    margin-left: auto;
+    background-color: #f0f0f0;
+}
+
+.fauzanThreeDotsSpace {
+    line-height: 20%;
+}
+
+.fauzanHausIcon {
+    border-radius: 50%;
+    display: block;
+    margin-left: 45.25%;
+    margin-right: auto;
+    width: 96px;
+    height: 96px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #1E2330;
+    font-size: 103%;
+    font-weight: 500;
+    font-style: normal;
+    text-align: initial;
+    margin-left: 20%;
+    font-family: sans-serif;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    padding: 21px 290px;
+    margin-left: 19%;
+}
+
+.fauzanLinkFrame1 {
+    background-color: rgb(67, 230, 96);
+    border-radius: 15px;
+    border: none;
+    padding: 19px 279px;
+    height: auto;
+}
+
+.fauzanLinkFrame2 {
+    background-color: rgb(67, 230, 96);
+    border-radius: 15px;
+    border: none;
+    padding: 19px 277px;
+    height: auto;
+}
+
+.fauzanLinkFrame3 {
+    background-color: rgb(67, 230, 96);
+    border-radius: 15px;
+    border: none;
+    padding: 19px 318px;
+    height: auto;
+}
+
+.fauzanLinkFrame4 {
+    background-color: rgb(67, 230, 96);
+    border-radius: 15px;
+    border: none;
+    padding: 19px 313px;
+    height: auto;
+}
+
+.fauzanLinkFrame5 {
+    background-color: rgb(67, 230, 96);
+    border-radius: 15px;
+    border: none;
+    padding: 19px 282px;
+    height: auto;
+}
+
+.fauzanLinkSpace {
+    line-height: 55px;
+}
+
