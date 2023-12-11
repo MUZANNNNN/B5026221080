@@ -99,3 +99,15 @@ Route::get('/keranjangbelanja/beli','App\Http\Controllers\KeranjangBelanjaContro
 Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangBelanjaController@store');
 Route::post('/keranjangbelanja/update','App\Http\Controllers\KeranjangBelanjaController@update');
 Route::get('/keranjangbelanja/hapus/{id}','App\Http\Controllers\KeranjangBelanjaController@hapus');
+
+//route PenggarisController
+Route::get('/penggaris','App\Http\Controllers\PenggarisController@index');
+Route::get('/penggaris/tambah','App\Http\Controllers\PenggarisController@tambah');
+Route::post('/penggaris/store','App\Http\Controllers\PenggarisController@store');
+Route::get('/penggaris/edit/{id}','App\Http\Controllers\PenggarisController@edit');
+Route::post('/penggaris/update','App\Http\Controllers\PenggarisController@update');
+Route::get('/penggaris/hapus/{id}','App\Http\Controllers\PenggarisController@hapus');
+Route::get('/penggaris/view/{id}','App\Http\Controllers\PenggarisController@view');
+
+//route EASController
+Route::get('/chat','App\Http\Controllers\EASController@index');
