@@ -18,23 +18,24 @@
   <!-- Links -->
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="#">Link 1</a>
-    </li>
+        <a class="nav-link" href="http://127.0.0.1:8000">Home</a>
+      </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Link 2</a>
+      <a class="nav-link" href="http://127.0.0.1:8000/chat">Chat</a>
     </li>
 
-    <!-- Dropdown -->
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        Database Link
-      </a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Data Pegawai</a>
-        <a class="dropdown-item" href="#">Link 2</a>
-        <a class="dropdown-item" href="#">Link 3</a>
-      </div>
-    </li>
+      <!-- Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          Database Link
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="http://127.0.0.1:8000/pegawai">Data Pegawai</a>
+          <a class="dropdown-item" href="http://127.0.0.1:8000/nilaikuliah">Data Nilai Kuliah</a>
+          <a class="dropdown-item" href="http://127.0.0.1:8000/keranjangbelanja">Data Keranjang Belanja</a>
+          <a class="dropdown-item" href="#">Data Penggaris</a>
+        </div>
+      </li>
   </ul>
 </nav>
 <br>
